@@ -9,7 +9,7 @@ C#/.NET Framework 4.0/VisualStudio2017
 
 使い方
 ------
-TestEraErase.exeをローカルドライブ上に置いてから実行する。
+bin/x86/Release/TestEraErase.exe* をローカルドライブ上に置いてから実行する。
 
 関連情報
 ------
@@ -18,7 +18,10 @@ TestEraErase.exeをローカルドライブ上に置いてから実行する。
 　　実行結果は自己責任で。
 　　万が一の為にシステム全体をバックアップしておいてください。  
 　　不安な場合は使用しないでください。  
-
+３、いじくるレジストリは HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\Calendars\Japanese\Eras です  
+　　この中から"？？_？_??????_?"を持つ値を削除します。  
+　　削除前には確認ダイアログが表示されるので起動後にいきなりレジストリがいじられることはありません。  
+　　
 ライセンス
 ------
 ライセンスを適用するファイルにはライセンスについての記述があります。  
