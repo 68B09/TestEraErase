@@ -16,9 +16,9 @@ SHA256:e0e3a2bb9bcec6383732c3e4b59b7be5ca193e4bd0f95fb5cf7d3a6167e55df0
 
 関連情報
 ------
-１、レジストリを弄るので管理者権限で起動します  
+１、管理者権限で起動するようになっています  
 ２、レジストリを弄るので要注意  
-　　実行結果は自己責任で。
+　　実行結果は自己責任で。  
 　　万が一の為にシステム全体をバックアップしておいてください。  
 　　不安な場合は使用しないでください。  
 ３、いじくるレジストリは HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\Calendars\Japanese\Eras です  
